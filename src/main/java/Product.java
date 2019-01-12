@@ -29,4 +29,5 @@ class Product {
         this.quantity += quantity;
     }
 
+    void removeStock(int quantity) { this.quantity -= quantity; }
 }
